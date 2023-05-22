@@ -1,0 +1,81 @@
+* {
+  font-family: "M PLUS Rounded 1c", Avenir Next, Helvetica, sans-serif;
+  color: white;
+}
+body {
+  background-color: rgb(127, 127, 238);
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem rem;
+}
+.inputContainer {
+  font-weight: bold;
+}
+span {
+  font-weight: bold;
+}
+#topContainer {
+  margin-top: 4rem;
+}
+
+.wrapper {
+  height: 525px;
+  width: 360px;
+  background-color: #272639;
+  padding: 1.2rem;
+  margin: 150px;
+  border-radius: 16px;
+}
+.inputContainer {
+  background: #353959;
+  margin-top: 12px;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+#billTotalInput,
+#tipInput {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+.buttonContainer {
+  background: #8990ec;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+.splitButton {
+  background: none;
+  border: none;
+}
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.controls {
+  display: flex;
+  align-items: center;
+}
+.splitAmount {
+  font-size: 1.6rem;
+  margin: 0.8rem;
+}
+.container {
+  margin-top: 1.4rem;
+}
+.total {
+  font-size: 2rem;
+}
+/* rem-relative to font size of the root element */
